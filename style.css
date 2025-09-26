@@ -6,16 +6,40 @@ body {
   height: 100%;
   font-family: "Arial", sans-seri;
 }
+body {
+  background-color: lightskyblue;
+}
 
 h1 {
   text-align: center;
+  font-size: 40px;
+  font-weight: bold;
   color: navy;
 }
-
-footer {
-  text-align: center;
+.clockContainer {
+  box-shadow: 10px 10px 10px 10px rgba(2, 2, 2, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+}
+.citiesContainer {
+  margin-top: 20px;
+  padding: 50px;
+  background-color: floralwhite;
+}
+select {
+  display: block;
   width: 100%;
-  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+footer {
+  background-color: cornflowerblue;
   color: black;
-  padding: 20px;
+  text-align: center;
+  max-width: 700px;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
